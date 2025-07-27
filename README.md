@@ -1,2 +1,5 @@
-# shpkg-packages
-Packages for SHPKG - Shourya's Linux
+📦 SHPKG - Shourya’s Package Manager
+
+SHPKG is a lightweight and customizable package manager written in Python. Inspired by tools like apt, dnf, and pacman, SHPKG allows you to manage shell-script-based packages with simple commands. It is designed specifically for minimal Linux systems and learning environments where traditional package managers are either too heavy or unavailable. SHPKG is ideal for embedded systems, educational projects, and DIY Linux distributions where you need full control over what gets installed and how. It supports installing packages from a local repository directory, each defined with an install.sh script and a meta.json file that describes the package’s name, version, author, and other essential metadata.
+
+With SHPKG, developers can easily create and share simple packages by just writing a shell script and defining basic metadata. There’s no need for complex compilers or dependency resolution engines — just describe what your package does and how to install it. SHPKG reads from a local folder structure (repo/) and tracks installed packages using a simple database. Future features will include remote GitHub integration, dependency checks, uninstall scripts, and version upgrades. Whether you’re building your own Linux distribution, a developer environment, or a hobby OS, SHPKG puts the power of package management into your hands in a clean, Pythonic way.
