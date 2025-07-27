@@ -1,0 +1,10 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "A simple package that prints 'Hello, world!'",
+  "author": "Shourya Agarwal",
+  "license": "MIT",
+  "dependencies": [],
+  "install": "install.sh",
+  "uninstall": "uninstall.sh"
+}
