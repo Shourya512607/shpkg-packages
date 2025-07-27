@@ -1,0 +1,7 @@
+go build -o shpkg main.go
+
+./shpkg install hello
+./shpkg uninstall hello
+./shpkg list
+./shpkg info hello
+./shpkg help
